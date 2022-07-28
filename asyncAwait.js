@@ -13,11 +13,12 @@
 // console.log("Get data function called", p);
 // console.log("Get data function called", p);
 
-const getData = async() => {
-    var y = await "Hello World";
-    console.log(y);
-}
- 
+const getData = async function () {
+  var y = await "Hello World";
+  console.log(y);
+  return y;
+};
+
 console.log(1);
-getData();
+getData().then((res) => console.log("Resolutt", res));
 console.log(2);

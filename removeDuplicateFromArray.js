@@ -9,6 +9,7 @@ function removeDuplicate(arr) {
             newArr.push(element);
         }
     });
+    arr = newArr
     return newArr 
 }
 
