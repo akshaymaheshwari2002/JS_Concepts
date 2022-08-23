@@ -1,5 +1,5 @@
 // "use strict";
-// p = 12;
+p = 12;
 // var a = "cat";
 // (function () {
 //   var a = "dog";
